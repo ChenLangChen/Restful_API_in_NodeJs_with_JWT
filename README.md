@@ -36,7 +36,8 @@ COLLECTIONS -- Add My Own Data -- Create Database
 
 ### Create .env 
 ```bash
-DB_CONNECTION=mongodb+srv://Lang:jBj4QjqN4ES99Wi@clustera.1ldh7.mongodb.net/users?retryWrites=true&w=majority
+DB_CONNECTION=mongodb+srv://chenlang:<password>@cluster0.z5p1a.mongodb.net/<dbname>?retryWrites=true&w=majority
+TOKEN_SECRET=itcanbeanythingyouwant
 ```
 
 ### Create models folder
