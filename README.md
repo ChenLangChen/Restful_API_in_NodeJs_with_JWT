@@ -1,5 +1,6 @@
 ## Introduction
 In this tutorial, we're gonna create a restful API in Node.js with JWT. 
+![alt](/screenshots/api-restaurant.jpeg)
 
 **API** stands for application programming interface. It allows the programs to communicate with each other under the specified rules. We create API on the server so that the clients can talk to the server, such as asking for data. 
 Take dining in a restaurant as an example, you are the client of an application, the backend is the kitchen, and the API is the waiter or waitress.
@@ -8,6 +9,20 @@ Take dining in a restaurant as an example, you are the client of an application,
 
 **JWT** stands for JSON Web Token. The server generates a token that certifies the user identity, and sends it to the client. The client can stay logged in inside the application for the specified amount of time without being asked to verify the identity again and again, which is especially convenient when you're hopping between different pages within the app. 
 Let's take going to a club for example. At the door, the bouncer asks for your ID , then he stamps on your wrist. This stamp is like JWT, you can go in and out of the club with the stamp, without checking ID.
+
+## Directory tree
+```script
+├── app.js
+├── models
+│   └── user.js
+├── package-lock.json
+├── package.json
+├── routes
+│   ├── auth.js
+│   ├── posts.js
+│   └── verifyToken.js
+└── validation.js
+```
 
 ### Initiate a package
 ```shell
@@ -83,6 +98,14 @@ Code path: '/routes/posts.js'
 ```script
 {'auth-token': token}
 ```
+
+## References
+[1]Smashing Magazine. 2021. Understanding And Using REST APIs — Smashing Magazine. [online] Available at: <https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/> [Accessed 18 March 2021].
+
+### Image References
+[Cover image] https://retirementincomejournal.com/wp-content/uploads/2019/07/api-restaurant-analogy-example1.jpg
+
+
 
 
 
