@@ -1,4 +1,13 @@
-How to create a restful API in Node Js with JWT
+## Introduction
+In this tutorial, we're gonna create a restful API in Node.js with JWT. 
+
+**API** stands for application programming interface. It allows the programs to communicate with each other under the specified rules. We create API on the server so that the clients can talk to the server, such as asking for data. 
+Take dining in a restaurant as an example, you are the client of an application, the backend is the kitchen, and the API is the waiter or waitress.
+
+**REST** stands for 'Representational State Transfer'. It is a set of rules that allow you to retrieve data (response) with the specified URL.[1]
+
+**JWT** stands for JSON Web Token. The server generates a token that certifies the user identity, and sends it to the client. The client can stay logged in inside the application for the specified amount of time without being asked to verify the identity again and again, which is especially convenient when you're hopping between different pages within the app. 
+Let's take going to a club for example. At the door, the bouncer asks for your ID , then he stamps on your wrist. This stamp is like JWT, you can go in and out of the club with the stamp, without checking ID.
 
 ### Initiate a package
 ```shell
