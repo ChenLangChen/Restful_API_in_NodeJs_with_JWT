@@ -64,6 +64,7 @@ There're 2 types of validations, registration & login validation.
 
 ### verifyToken.js 
 Code path: '/routes/verifyToken.js'
+
 After a user is logged in, we need to verity the token presented.
 
 ### posts.js
