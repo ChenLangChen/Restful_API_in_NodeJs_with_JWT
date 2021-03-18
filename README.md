@@ -62,10 +62,12 @@ TOKEN_SECRET=itcanbeanythingyouwant
 ### validation.js 
 There're 2 types of validations, registration & login validation. 
 
-### verifyToken.js
+### verifyToken.js 
+Code path: '/routes/verifyToken.js'
 After a user is logged in, we need to verity the token presented.
 
 ### posts.js
+Code path: '/routes/posts.js'
 - This is for dealing with user requests to other pages using the presented token.
 - The token is already included in the request header 
 ```script
